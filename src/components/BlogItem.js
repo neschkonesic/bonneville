@@ -119,7 +119,7 @@ const BlogItem = ({ index, nodeObj }) => {
           {path && (
             <div className="meta">
               <Link className="btn-link" to={path}>
-                Read
+            čitaj
               </Link>
               <h4>{date}</h4>
             </div>
