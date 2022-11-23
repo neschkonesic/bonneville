@@ -22,31 +22,31 @@ const Layout = ({ children }) => {
         <Header Logo={Logo} />
         <main className="main-body">{children}</main>
         <Footer Logo={Logo} />
-        <CookieConsent
-          location="bottom"
-          buttonText="Okay"
-          cookieName="bonnevilleCookie"
-          expires={150}
-          style={{
-            background: "var(--black)",
-            padding: "var(--spacing)",
-            fontSize: "16px",
-            boxSizing: "border-box",
-          }}
-          buttonStyle={{
-            padding: "1rem",
-            color: "var(--black)",
-            backgroundColor: "#fff",
-            fontSize: "16px",
-          }}
-        >
-          This website uses cookies to help improve your experience. By using
-          this site you agree to the webiste{" "}
-          <Link to="/privacy" style={{ color: "#fff" }}>
-            privacy statement
-          </Link>
-          .
-        </CookieConsent>
+   //     <CookieConsent
+     //     location="bottom"
+    //      buttonText="Okay"
+    //      cookieName="bonnevilleCookie"
+      //    expires={150}
+        //  style={{
+          //  background: "var(--black)",
+    //        //padding: "var(--spacing)",
+      //      fontSize: "16px",
+        //    boxSizing: "border-box",
+//          }}
+  //        buttonStyle={{
+    //        padding: "1rem",
+      //      color: "var(--black)",
+        //    backgroundColor: "#fff",
+          //  fontSize: "16px",
+ //         }}
+//        >
+  //        This website uses cookies to help improve your experience. By using
+    //      this site you agree to the webiste{" "}
+      //    <Link to="/privacy" style={{ color: "#fff" }}>
+//            privacy statement
+  //        </Link>
+    //      .
+      //  </CookieConsent>
       </motion.div>
     </>
   )
