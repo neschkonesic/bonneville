@@ -42,7 +42,7 @@ const ButtonWrapper = styled.button`
 const Button = props => {
   return (
     <ButtonWrapper type={props.type}>
-      {props.text ? props.text : "Read Article"}{" "}
+      {props.text ? props.text : "čitaj artikl-Read Article"}{" "}
     </ButtonWrapper>
   )
 }
