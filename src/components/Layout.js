@@ -6,7 +6,7 @@ import GlobalStyles from "../styles/GlobalStyles"
 import Typography from "../styles/Typography"
 import Logo from "../content/images/bonneville-logo.svg"
 import { motion } from "framer-motion"
-import CookieConsent from "react-cookie-consent"
+//import CookieConsent from "react-cookie-consent"
 
 const Layout = ({ children }) => {
   return (
